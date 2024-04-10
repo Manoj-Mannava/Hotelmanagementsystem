@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SMS PROJECT</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+
+        }
+
+        nav {
+            background-color: #007bff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="{% url 'Admin1' %}">Admin Form</a>
+        <a href="{% url 'Admin2' %}">Rooms Available</a>
+        <a href="{% url 'Admin3' %}">LiveRoom</a>
+    </nav>
+    {% block 'body' %}
+    <p>I am in home page</p>
+    {% endblock %}
+</body>
+</html>
