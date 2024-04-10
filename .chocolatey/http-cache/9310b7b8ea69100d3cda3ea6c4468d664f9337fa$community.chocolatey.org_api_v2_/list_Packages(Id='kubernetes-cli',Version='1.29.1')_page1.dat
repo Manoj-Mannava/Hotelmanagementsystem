@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<entry xml:base="http://community.chocolatey.org/api/v2/" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns="http://www.w3.org/2005/Atom">
+  <id>http://community.chocolatey.org/api/v2/Packages(Id='kubernetes-cli',Version='1.29.1')</id>
+  <title type="text">kubernetes-cli</title>
+  <summary type="text">Kubernetes is an open source system for managing containerized applications across multiple hosts, providing basic mechanisms for deployment, maintenance, and scaling of applications.</summary>
+  <updated>2024-03-21T05:48:27Z</updated>
+  <author>
+    <name>Google</name>
+  </author>
+  <link rel="edit-media" title="V2FeedPackage" href="Packages(Id='kubernetes-cli',Version='1.29.1')/$value" />
+  <link rel="edit" title="V2FeedPackage" href="Packages(Id='kubernetes-cli',Version='1.29.1')" />
+  <category term="CCR.Website.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+  <content type="application/zip" src="https://community.chocolatey.org/api/v2/package/kubernetes-cli/1.29.1" />
+  <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+    <d:Version>1.29.1</d:Version>
+    <d:Title>Kubernetes Command Line Interface (CLI)</d:Title>
+    <d:Description>## Production-Grade Container Orchestration
+### Automated container deployment, scaling, and management
+
+Kubernetes is an open source system for managing containerized applications across multiple hosts, providing basic mechanisms for deployment, maintenance, and scaling of applications. It groups containers that make up an application into logical units for easy management and discovery.
+
+Kubernetes builds upon 15 years of experience of running production workloads at Google, combined with best-of-breed ideas and practices from the community.
+
+#### Planet Scale
+Designed on the same principles that allows Google to run billions of containers a week, Kubernetes can scale without increasing your ops team.
+
+#### Never Outgrow
+Whether testing locally or running a global enterprise, Kubernetes flexibility grows with you to deliver your applications consistently and easily no matter how complex your need is.
+
+#### Run Anywhere
+Kubernetes is open source giving you the freedom to take advantage of on-premises, hybrid, or public cloud infrastructure, letting you effortlessly move workloads to where it matters to you.
+
+
+### Features
+#### Automatic binpacking
+Automatically places containers based on their resource requirements and other constraints, while not sacrificing availability. Mix critical and best-effort workloads in order to drive up utilization and save even more resources.
+
+#### Self-healing
+Restarts containers that fail, replaces and reschedules containers when nodes die, kills containers that don't respond to your user-defined health check, and doesn't advertise them to clients until they are ready to serve.
+
+#### Horizontal scaling
+Scale your application up and down with a simple command, with a UI, or automatically based on CPU usage.
+
+#### Service discovery and load balancing
+No need to modify your application to use an unfamiliar service discovery mechanism. Kubernetes gives containers their own IP addresses and a single DNS name for a set of containers, and can load-balance across them.
+
+#### Automated rollouts and rollbacks
+Kubernetes progressively rolls out changes to your application or its configuration, while monitoring application health to ensure it doesn't kill all your instances at the same time. If something goes wrong, Kubernetes will rollback the change for you. Take advantage of a growing ecosystem of deployment solutions.
+
+#### Secret and configuration management
+Deploy and update secrets and application configuration without rebuilding your image and without exposing secrets in your stack configuration.
+
+#### Storage orchestration
+Automatically mount the storage system of your choice, whether from local storage, a public cloud provider such as GCP or AWS, or a network storage system such as NFS, iSCSI, Gluster, Ceph, Cinder, or Flocker.
+
+#### Batch execution
+In addition to services, Kubernetes can manage your batch and CI workloads, replacing containers that fail, if desired.</d:Description>
+    <d:Tags xml:space="preserve"> kubernetes kubectl docker rkt containers devops cli foss </d:Tags>
+    <d:Copyright>(c) 2017 Kubernetes</d:Copyright>
+    <d:Created m:type="Edm.DateTime">2024-01-18T00:11:40.64</d:Created>
+    <d:Dependencies></d:Dependencies>
+    <d:DownloadCount m:type="Edm.Int32">1405756</d:DownloadCount>
+    <d:VersionDownloadCount m:type="Edm.Int32">48813</d:VersionDownloadCount>
+    <d:GalleryDetailsUrl>https://community.chocolatey.org/packages/kubernetes-cli/1.29.1</d:GalleryDetailsUrl>
+    <d:ReportAbuseUrl>https://community.chocolatey.org/package/ReportAbuse/kubernetes-cli/1.29.1</d:ReportAbuseUrl>
+    <d:IconUrl>https://cdn.jsdelivr.net/gh/chocolatey-community/chocolatey-packages@5a8c40781821bbd2746754b7ce723938090bb7c6/icons/kubernetes-cli.png</d:IconUrl>
+    <d:IsLatestVersion m:type="Edm.Boolean">true</d:IsLatestVersion>
+    <d:IsAbsoluteLatestVersion m:type="Edm.Boolean">true</d:IsAbsoluteLatestVersion>
+    <d:IsPrerelease m:type="Edm.Boolean">false</d:IsPrerelease>
+    <d:Language m:null="true"></d:Language>
+    <d:Published m:type="Edm.DateTime">2024-01-18T00:11:40.64</d:Published>
+    <d:LicenseUrl>https://github.com/kubernetes/kubernetes/blob/master/LICENSE</d:LicenseUrl>
+    <d:RequireLicenseAcceptance m:type="Edm.Boolean">false</d:RequireLicenseAcceptance>
+    <d:PackageHash>9oll0l2qmQ/3S1pV6r/bfqEWmyjKC6SVYF9XaUVuzMo8ytmxMjxSZTjYBwjAwsXPzImLWQ5y6N1J6sDFMqDLlQ==</d:PackageHash>
+    <d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm>
+    <d:PackageSize m:type="Edm.Int64">59651846</d:PackageSize>
+    <d:ProjectUrl>https://kubernetes.io/</d:ProjectUrl>
+    <d:ReleaseNotes>https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.29.md</d:ReleaseNotes>
+    <d:ProjectSourceUrl>https://github.com/kubernetes/kubernetes</d:ProjectSourceUrl>
+    <d:PackageSourceUrl>https://github.com/chocolatey-community/chocolatey-packages/tree/master/automatic/kubernetes-cli</d:PackageSourceUrl>
+    <d:DocsUrl>https://kubernetes.io/docs</d:DocsUrl>
+    <d:MailingListUrl></d:MailingListUrl>
+    <d:BugTrackerUrl>https://github.com/kubernetes/kubernetes/issues</d:BugTrackerUrl>
+    <d:IsApproved m:type="Edm.Boolean">true</d:IsApproved>
+    <d:PackageStatus>Approved</d:PackageStatus>
+    <d:PackageSubmittedStatus>Ready</d:PackageSubmittedStatus>
+    <d:PackageTestResultUrl>https://gist.github.com/choco-bot/2d311055f3dac91907195becb3dae288</d:PackageTestResultUrl>
+    <d:PackageTestResultStatus>Passing</d:PackageTestResultStatus>
+    <d:PackageTestResultStatusDate m:type="Edm.DateTime">2024-01-18T01:07:19.33</d:PackageTestResultStatusDate>
+    <d:PackageValidationResultStatus>Passing</d:PackageValidationResultStatus>
+    <d:PackageValidationResultDate m:type="Edm.DateTime">2024-01-18T00:46:43.987</d:PackageValidationResultDate>
+    <d:PackageCleanupResultDate m:type="Edm.DateTime" m:null="true"></d:PackageCleanupResultDate>
+    <d:PackageReviewedDate m:type="Edm.DateTime">2024-01-18T01:37:54.207</d:PackageReviewedDate>
+    <d:PackageApprovedDate m:type="Edm.DateTime">2024-01-18T01:37:54.207</d:PackageApprovedDate>
+    <d:PackageReviewer m:null="true"></d:PackageReviewer>
+    <d:IsDownloadCacheAvailable m:type="Edm.Boolean">false</d:IsDownloadCacheAvailable>
+    <d:DownloadCacheStatus>Checked</d:DownloadCacheStatus>
+    <d:DownloadCacheDate m:type="Edm.DateTime">2024-01-18T02:39:51.663</d:DownloadCacheDate>
+    <d:DownloadCache m:null="true"></d:DownloadCache>
+    <d:PackageScanStatus>Flagged</d:PackageScanStatus>
+    <d:PackageScanResultDate m:type="Edm.DateTime">2024-01-18T01:37:54.207</d:PackageScanResultDate>
+    <d:PackageScanFlagResult>Note</d:PackageScanFlagResult>
+  </m:properties>
+</entry>

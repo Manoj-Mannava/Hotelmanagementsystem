@@ -14,6 +14,7 @@
 <script>
 import CompanyList from './components/CompanyList.vue';
 import ChatHistory from './components/ChatHistory.vue';
+import Users from './components/Users.vue';
 
 export default {
   name: 'App',

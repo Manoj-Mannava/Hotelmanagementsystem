@@ -52,9 +52,9 @@ export default {
   margin-bottom: 10px;
   transition: background-color 0.3s ease;
   position: relative;
-  display: flex; /* Make company a flex container */
-  align-items: center; /* Align button to bottom */
-  justify-content: space-between; /* Space content horizontally */
+  display: flex; 
+  align-items: center;
+  justify-content: space-between; 
 }
 
 .company h3 {
